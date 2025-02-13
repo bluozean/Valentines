@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Me?</title>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento|Dancing+Script|Parisienne|Great+Vibes&display=swap" rel="stylesheet">
+        <style>
+            /* Body styles */
+            body {
+                background: url("https://i.pinimg.com/736x/d8/e7/52/d8e752be7fb105f4b1ad0506ed95c444.jpg"  ) no-repeat center center fixed;
+                background-color: #f4c0c0; /* Light pink background */
+                background-size: cover;
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                background-color: #f3f699; /* Light pink background */
+                font-family: 'Great Vibes', cursive;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                text-align: center;
+            }
+
+            /* Container for text and image */
+            .container {
+                max-width: 310px;
+                padding: 20px;
+                color: #4f2602;
+            }
+
+            /* Styling for headers with smaller font size */
+            .header_text {
+                font-size: 2rem; /* Adjusted to a smaller size */
+                text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.5);
+                margin-bottom: 15px; /* Reduced margin to fit more text */
+            }
+
+            /* GIF container */
+            .gif_container {
+                position: relative;
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center
+                
+                
+        
+            }
+            /* Button container */
+            .buttons {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                position: relative;
+                margin-top: 20px;
+            }
+
+            /* YEAHHHHHHH button styles */
+            #yesButton {
+                background-color: #fc067d; /* Yellow */
+                color: white;
+                padding: 12px 25px;
+                font-size: 1.2rem; /* Smaller button text size */
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+            #yesButton:hover {
+                background-color: #f399f0; /* Darker yellow on hover */
+                transform: scale(1.1);
+            }
+
+            /* Nope button styles */
+            #noButton {
+                background-color: #dddddd; /* Light grey */
+                color: #ed95d1;
+                padding: 12px 25px;
+                font-size: 1.2rem; /* Smaller button text size */
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+            #noButton:hover {
+                background-color: #9c5685; /* Darker grey on hover */
+                transform: scale(1.1);
+            }
+
+            /* Styling for the image */
+            .gif_container img {
+                max-width: 100%;
+                height: 50;
+                border-radius: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+               
+
+              <h1 class="header_text" style="color: #f659b2;">
+                    Am I everything YOU need?
+                    
+
+
+                    ˶ᵔ ᵕ ᵔ˶ 
+                </h1>
+            </div>
+
+            <div class="gif_container">
+                
+                <img alt="This may contain: two people hugging each other with long hair" class="hCL kVc L4E MIw N7A XiG" fetchpriority="high" loading="auto" src="https://i.pinimg.com/736x/7a/6e/a9/7a6ea9a93eae0e660aa9054f952365ce.jpg" style="object-fit: contain;">
+
+                <div class="buttons">
+                    <button class="btn" id="yesButton" onclick="nextPage()">YEAHHHHHHH</button>
+                    <button class="btn" id="noButton" onclick="nextPage1()" > Nope </button>
+
+                    <script>
+                        function nextPage() {
+                            window.location.href = "yes4.html";
+                        }
+                        function nextPage1() {
+                            window.location.href = "no3.html";
+                        }
+                       
+                    </script>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

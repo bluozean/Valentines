@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valentine's Page</title>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento|Dancing+Script|Parisienne|Great+Vibes&display=swap" rel="stylesheet">
+        <style>
+            /* Body styles */
+            body {
+                background: url("https://i.pinimg.com/736x/54/51/75/545175693d392865f4e3c81e7fec7f25.jpg" ) no-repeat center center fixed;
+                background-color: #f4c0c0; /* Light pink background */
+                background-size: cover;
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                font-family: 'Great Vibes', cursive;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                text-align: center ;
+            }
+
+            /* Container for text and image */
+            .container {
+                max-width: 310px;
+                padding: 20px;
+                color: #4f2602;
+            }
+
+            /* Styling for headers with smaller font size */
+            .header_text {
+                font-size: 1rem; /* Adjusted to a smaller size */
+                text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.5);
+                margin-bottom: 15px; /* Reduced margin to fit more text */
+            }
+
+            /* GIF container */
+            .gif_container {
+                position: relative;
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /* Button container */
+            .buttons {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                position: relative;
+                margin-top: 20px;
+            }
+
+            /* YEAHHHHHHH button styles */
+            #yesButton {
+                background-color: #292929; /* Yellow */
+                color: white;
+                padding: 12px 25px;
+                font-size: 1.2rem; /* Smaller button text size */
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+            #yesButton:hover {
+                background-color: #656461; /* Darker yellow on hover */
+                transform: scale(1.1);
+            }
+
+            /* Nope button styles */
+            #noButton {
+                background-color: #dcdcdc; /* Light grey */
+                color: #4f2602;
+                padding: 12px 25px;
+                font-size: 1.2rem; /* Smaller button text size */
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+            #noButton:hover {
+                background-color: #b0b0b0; /* Darker grey on hover */
+                transform: scale(1.1);
+            }
+
+            /* Styling for the image */
+            .gif_container img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                
+
+                <h1 class="header_text" style="color: #000000; font-size: 1.5rem;">
+
+                 Am I A Joke To You?
+                 (⇀‸↼‶)💢
+                </h1>
+                <h1 class="header_text" style="color: #105203;">
+                 (with respect, GO BACK U-)
+                </h1>
+
+            </div>
+
+            <div class="gif_container">
+                <img alt="This may contain: a man in a shirt and tie with his hands up" class="hCL kVc L4E MIw N7A XiG" fetchpriority="high" loading="auto" src="https://i.pinimg.com/736x/b6/f5/9c/b6f59cf918a46bfc0dc8889d08d2800d.jpg" >
+
+                <div class="buttons">
+                    <button class="btn" id="yesButton" onclick="nextPage()">GO BACK</button>
+                    
+
+                    <script>
+                        function nextPage() {
+                            window.location.href = "yes3.html";
+                        }
+                        
+                       
+                    </script> 
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

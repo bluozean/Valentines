@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Do</title>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento|Dancing+Script|Parisienne|Great+Vibes&display=swap" rel="stylesheet">
+        <style>
+            /* Body styles */
+            body {
+                background: url("https://i.pinimg.com/736x/a6/b8/21/a6b821e93a6e500d524e68851a71d71e.jpg"  ) no-repeat center center fixed;
+                background-color: #f4c0c0; /* Light pink background */
+                background-size: cover;
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                font-family: 'Great Vibes', cursive;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                text-align: center ;
+            }
+
+            /* Container for text and image */
+            .container {
+                max-width: 310px;
+                padding: 20px;
+                color: #4f2602;
+            }
+
+            /* Styling for headers with smaller font size */
+            .header_text {
+                font-size: 1rem; /* Adjusted to a smaller size */
+                text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.5);
+                margin-bottom: 15px; /* Reduced margin to fit more text */
+            }
+
+            /* GIF container */
+            .gif_container {
+                position: relative;
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /* Button container */
+            .buttons {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                position: relative;
+                margin-top: 20px;
+            }
+
+            /* YEAHHHHHHH button styles */
+            #yesButton {
+                background-color: #f9b300; /* Yellow */
+                color: white;
+                padding: 12px 25px;
+                font-size: 1.2rem; /* Smaller button text size */
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+            #yesButton:hover {
+                background-color: #f7a600; /* Darker yellow on hover */
+                transform: scale(1.1);
+            }
+
+            /* Nope button styles */
+            #noButton {
+                background-color: #dcdcdc; /* Light grey */
+                color: #4f2602;
+                padding: 12px 25px;
+                font-size: 1.2rem; /* Smaller button text size */
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+            #noButton:hover {
+                background-color: #b0b0b0; /* Darker grey on hover */
+                transform: scale(1.1);
+            }
+
+            /* Styling for the image */
+            .gif_container img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1 class="header_text" style="color: #4f2602;">
+                    Hey baby girl, Happy Valentine's!
+                    Welcome to this special little corner of the internet, it's just for you! 
+                    ────୨ৎ────
+                    
+                    
+                    
+                </h1>
+
+                <h1 class="header_text" style="color: #a705bd;">
+                    I swear, you’re the most annoying person I know- but somehow, you’re also my absolute favorite. No matter how much you drive me crazy, I’d still choose you every single time.
+                    So, let me ask you something important-  
+                </h1>
+
+                <h1 class="header_text" style="color: #ba146a;">
+                    DRUMROLL*
+                </h1>
+
+                <h1 class="header_text" style="color: #433c3b; font-size: 1.5rem;">
+
+                 Am I Original? 🦋
+                </h1>
+                <h1 class="header_text" style="color: #3e88d7;">
+                 (Go on, make the right choice)
+                </h1>
+
+            </div>
+
+            <div class="gif_container">
+                <img alt="This may contain: a woman holding an autumn leaf in her hand" height="1000" width="600" src="https://i.pinimg.com/736x/0d/8b/9b/0d8b9bd9ed8b795a02a50627e8925a19.jpg">
+
+                <div class="buttons">
+                    <button class="btn" id="yesButton" onclick="nextPage()">YEAHHHHHHH</button>
+                    <button class="btn" id="noButton" onclick="nextPage1()" > Nope </button>
+
+                    <script>
+                        function nextPage() {
+                            window.location.href = "yes.html";
+                        }
+                        function nextPage1() {
+                            window.location.href = "no.html";
+                        }
+                       
+                    </script> 
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
